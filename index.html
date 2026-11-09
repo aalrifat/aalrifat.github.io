@@ -1,215 +1,230 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#f5f7f6">
-  <meta name="description" content="Academic portfolio of Md. Abdullah Al-Rifat, a materials science researcher at KUET interested in computational materials science, first-principles DFT, energy materials and data-driven modelling.">
-  <meta property="og:title" content="Md. Abdullah Al-Rifat | Materials Science & Computational Research">
-  <meta property="og:description" content="Research interests, academic background, manuscripts in preparation and technical experience.">
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="https://aalrifat.github.io/">
-  <title>Md. Abdullah Al-Rifat | Materials Science & Computational Research</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Academic portfolio of Md. Abdullah Al-Rifat — Materials Science and Engineering.">
+  <title>Md. Abdullah Al-Rifat | Academic Portfolio</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="home.css">
+  <link rel="stylesheet" href="profile.css">
+  <link rel="stylesheet" href="projects.css">
+  <link rel="stylesheet" href="education.css">
+  <link rel="stylesheet" href="experience.css">
+  <link rel="stylesheet" href="skills.css">
+  <link rel="stylesheet" href="contact.css">
 </head>
 <body>
-  <a class="skip-link" href="#main">Skip to content</a>
-  <header class="site-header">
-    <div class="nav-wrap">
-      <a class="wordmark" href="#top" aria-label="Md. Abdullah Al-Rifat home">AR<span>.</span></a>
-      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-nav" aria-label="Open navigation"><span></span><span></span></button>
-      <nav class="nav" id="primary-nav" aria-label="Primary navigation">
-        <a href="#about">About</a><a href="#research">Research</a><a href="#publications">Manuscripts</a><a href="#education">Education</a><a href="#experience">Experience</a><a class="nav-contact" href="#contact">Contact</a>
-      </nav>
+<header class="site-header">
+  <div class="container nav-wrap">
+    <a class="brand" href="#home">AAR</a>
+    <button class="menu-toggle" aria-label="Open navigation" aria-expanded="false">☰</button>
+    <nav class="nav-links" aria-label="Main navigation">
+      <a href="#profile">Research</a><a href="#projects">Projects & Thesis</a>
+      <a href="#education">Education</a><a href="#experience">Experience</a>
+      <a href="#skills">Skills</a><a class="nav-contact" href="#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+<!-- 1. HOME -->
+<section id="home" class="hero section">
+  <div class="container hero-grid">
+    <div class="hero-copy">
+      <p class="eyebrow">MATERIALS SCIENCE AND ENGINEERING</p>
+      <h1>Md. Abdullah<br><span>Al-Rifat</span></h1>
+      <p class="hero-role">MSc. in Engg. · Teaching Assistant · Khulna University of Engineering & Technology </p>
+      <p class="hero-intro">Computational materials research focused on understanding and designing materials through simulations and data-driven methods.</p>
+      <div class="hero-actions">
+        <a class="button button-primary" href="#projects">Explore my work <span>↗</span></a>
+        <a class="button button-outline" href="#contact">Contact</a>
+      </div>
+      <div class="hero-links"><a href="https://www.linkedin.com/in/aalrifat" target="_blank" rel="noreferrer">LinkedIn ↗</a><a href="https://github.com/aalrifat" target="_blank" rel="noreferrer">GitHub ↗</a><a href="mailto:abdullahalrifat1345@gmail.com">Email ↗</a></div>
     </div>
-  </header>
+    <div class="hero-photo-wrap">
+      <!-- Keep your current profile photo at assets/portfolio_profile.jpg -->
+      <img class="hero-photo" src="assets/portfolio_profile.jpg" alt="Portrait of Md. Abdullah Al-Rifat">
+      <div class="photo-caption"><span class="caption-dot"></span> MD. ABDULLAH AL-RIFAT</div>
+    </div>
+  </div>
+</section>
 
-  <main id="main">
-    <section class="hero section-shell" id="top">
-      <div class="hero-copy">
-        <p class="eyebrow"><span class="eyebrow-line"></span> Academic portfolio <span class="eyebrow-dot">/</span> Khulna, Bangladesh</p>
-        <h1>Md. Abdullah<br><span>Al-Rifat</span></h1>
-        <p class="hero-role">Materials Science &amp; Engineering <span>·</span> Computational Research</p>
-        <p class="hero-summary">I am a materials science researcher and Teaching Assistant at Khulna University of Engineering &amp; Technology (KUET). My interests lie in understanding and designing energy materials through first-principles calculations, computational modelling and data-driven methods.</p>
-        <div class="hero-actions">
-          <a class="button button-primary" href="mailto:abdullahalrifat1345@gmail.com?subject=Request%20for%20CV">Request CV <span aria-hidden="true">↗</span></a>
-          <a class="button button-secondary" href="#research">Explore research <span aria-hidden="true">↓</span></a>
-        </div>
-        <div class="hero-links" aria-label="Professional links">
-          <a href="mailto:abdullahalrifat1345@gmail.com">Email</a>
-          <a href="https://www.linkedin.com/in/aalrifat" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a>
-          <a href="https://github.com/aalrifat" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
-        </div>
-      </div>
-      <aside class="hero-aside" aria-label="Profile">
-        <div class="portrait-frame"><img src="assets/portfolio_profile.jpg" alt="Portrait of Md. Abdullah Al-Rifat" width="420" height="520"></div>
-        <div class="profile-note"><span class="note-mark">↳</span><div><strong>Researcher · Teaching Assistant</strong><small>Department of Materials Science &amp; Engineering, KUET</small></div></div>
-        <div class="hero-index">01 <span>—</span> 06</div>
-      </aside>
-      <div class="hero-bottomline"><span>COMPUTATIONAL MATERIALS</span><span>ENERGY MATERIALS</span><span>DATA-DRIVEN MODELLING</span></div>
-    </section>
+<!-- 2. RESEARCH PROFILE -->
+<section id="profile" class="section profile-section">
+  <div class="container narrow">
+    <p class="eyebrow">02 / RESEARCH PROFILE</p>
+    <h2 class="section-title">Research interests & direction</h2>
+    <p class="lead">I am interested in computational materials science, using atomistic simulations and data-driven approaches to investigate materials for energy-related applications.</p>
+    <div class="interest-grid">
+      <article class="interest-card"><span class="interest-number">01</span><h3>First-principles calculations</h3><p>Electronic structure, structural stability, and property prediction using density functional theory (DFT).</p></article>
+      <article class="interest-card"><span class="interest-number">02</span><h3>Energy materials</h3><p>Materials for batteries, hydrogen storage, optoelectronics, and related energy technologies.</p></article>
+      <article class="interest-card"><span class="interest-number">03</span><h3>Data-driven discovery</h3><p>Machine learning, materials descriptors, screening, and computational materials databases.</p></article>
+    </div>
+    <p class="profile-note"><strong>Research direction:</strong> How can computational simulations and experimental investigations be integrated to understand fundamental material properties, establish structure–property relationships, and develop innovative materials for next-generation energy storage technologies?</p>
+  </div>
+</section>
 
-    <section class="section section-paper" id="about">
-      <div class="section-shell two-column">
-        <div class="section-heading">
-          <p class="eyebrow">01 / Profile</p>
-          <h2>Curious about materials.<br><em>Driven by computation.</em></h2>
-        </div>
-        <div class="section-content">
-          <p class="lead">I work at the intersection of materials science, computational physics and data science, with a broader interest in materials for sustainable energy technologies.</p>
-          <p>I completed my B.Eng. in Materials Science and Engineering at KUET and am currently pursuing an M.Eng. at the same department, where I also serve as a Teaching Assistant. My academic work has included first-principles studies of perovskites and hydride materials. I am also interested in computational battery modelling and the use of machine learning to support materials discovery.</p>
-          <div class="profile-facts">
-            <div><span class="fact-label">CURRENT ROLE</span><strong>Teaching Assistant</strong><small>KUET · Jan 2026–Present</small></div>
-            <div><span class="fact-label">GRADUATE STUDY</span><strong>M.Eng. candidate</strong><small>Materials Science &amp; Engineering</small></div>
-            <div><span class="fact-label">UNDERGRADUATE</span><strong>CGPA 3.58 / 4.00</strong><small>Ranked 9th among 69 students</small></div>
-          </div>
-        </div>
-      </div>
-    </section>
+<!-- 3. PROJECTS & THESIS WORKS — MAIN FEATURE -->
+<section id="projects" class="section projects-section">
+  <div class="container">
+    <div class="section-heading-row">
+      <div><p class="eyebrow">03 / RESEARCH WORK</p><h2 class="section-title">Projects & Thesis Works</h2></div>
+      <p class="section-subtitle">Selected thesis and project work<br>Research summaries · Methods · Documents</p>
+    </div>
+    <div class="project-feature-note"><strong>Research portfolio</strong><span>Explore the scientific question, methodology, contribution, and available materials for each work.</span></div>
 
-    <section class="section section-tint" id="research">
-      <div class="section-shell">
-        <div class="section-topline"><div><p class="eyebrow">02 / Research</p><h2>Questions I want<br><em>to understand.</em></h2></div><p class="section-intro">My research interests centre on computational approaches to energy and functional materials. The themes below describe areas of work and interest—not a claim that every topic has produced a completed publication.</p></div>
-        <div class="research-grid">
-          <article class="research-card research-featured">
-            <div class="card-meta"><span>01</span><span>FIRST-PRINCIPLES</span></div>
-            <div class="research-symbol">ABX₃</div>
-            <h3>Halide perovskites</h3>
-            <p>Computational investigation of structural, electronic and related physical properties of ABX₃ (X = Cl, Br, I) perovskites, including the effect of pressure and potential optoelectronic and thermoelectric applications.</p>
-            <div class="tag-row"><span>Density Functional Theory</span><span>Quantum ESPRESSO</span><span>Optoelectronics</span></div>
-          </article>
-          <article class="research-card">
-            <div class="card-meta"><span>02</span><span>ENERGY STORAGE</span></div>
-            <div class="research-symbol">M₂XH₆</div>
-            <h3>Hydrogen-storage materials</h3>
-            <p>Interest in the structural stability and physical behaviour of metal hydrides, and their potential for solid-state hydrogen storage.</p>
-            <div class="tag-row"><span>DFT</span><span>Hydrides</span><span>Materials Studio</span></div>
-          </article>
-          <article class="research-card">
-            <div class="card-meta"><span>03</span><span>COMPUTATIONAL ELECTROCHEMISTRY</span></div>
-            <div class="research-symbol">Li⁺ · Na⁺ · Mg²⁺</div>
-            <h3>Battery modelling</h3>
-            <p>Interest in electrochemical modelling of lithium-, sodium- and magnesium-ion batteries, including physics-based simulation and data-driven approaches.</p>
-            <div class="tag-row"><span>pyBaMM</span><span>Python</span><span>Machine learning</span></div>
-          </article>
-          <article class="research-card">
-            <div class="card-meta"><span>04</span><span>MATERIALS INFORMATICS</span></div>
-            <div class="research-symbol">ML × DFT</div>
-            <h3>Data-driven materials discovery</h3>
-            <p>Exploring how machine learning, materials databases and physically meaningful descriptors can help screen and prioritise candidate materials for further computational study.</p>
-            <div class="tag-row"><span>Python</span><span>Scikit-learn</span><span>Materials data</span></div>
-          </article>
-        </div>
-        <p class="research-note"><strong>Research approach</strong> &nbsp; Structure and composition → computational modelling → property analysis → candidate evaluation.</p>
-      </div>
-    </section>
+    <div class="project-list">
+      <!-- PROJECT 1: UNDERGRADUATE THESIS -->
+      <article class="project-card">
+        <div class="project-index">01</div><div class="project-content">
+          <div class="project-meta"><span class="tag tag-thesis">Undergraduate thesis</span><span class="project-status">[Completed]</span></div>
+          <h3>Computational investigation of the pressure-modulated physical properties of InSnX<sub>3</sub> (X= Cl, Br, and I) perovskites for optoelectronic and thermoelectric applications</h3>
+          <p class="project-summary">Using Quantum ESPRESSO, this thesis goes beyond the usual study of optical, electronic, and mechanical properties. It also explores thermoelectric, thermodynamic, and thermophysical properties, which were largely overlooked in previous studies of InSnX<sub>3</sub>. Finding reliable guidelines and learning the necessary methods were major challenges. Learning and applying Quantum ESPRESSO was one of the most demanding parts of this research. However, overcoming these challenges allowed me to explore the materials in greater depth and investigate their potential for practical applications.</p>
+          <div class="project-details"><div><b>Research question</b><p>To what extent can external pressure enhance or modify the physical properties of InSnX<sub>3</sub> (X = Cl, Br, I) perovskites?</p></div><div><b>Methods & tools</b><p>Density Functional Theory (DFT), Quantum ESPRESSO, and its associated post-processing packages.</p></div><div><b>My contribution</b><p>Independently learned and applied Quantum ESPRESSO. Explored rarely studied properties and uncovered new insights.</p></div></div>
+          <div class="project-links"><a class="text-link" href="https://drive.google.com/file/d/1wirnGvygpdmQxX2bCXZm2M46hBMCoQsE/view?usp=drive_link" target="_blank" rel="noreferrer">Read thesis / report ↗</a><a class="text-link" href="https://drive.google.com/file/d/1Ho1noGyusooatmJ1U0R2OCIP5cdT2Tp-/view?usp=drive_link" target="_blank" rel="noreferrer">Supplimentary files ↗</a></div>
+        </div><div class="project-visual"><img src="assets/project-ug-thesis.jpg" alt="[Describe thesis figure]" onerror="this.style.display='none'"><span></span></div>
+      </article>
 
-    <section class="section section-paper" id="publications">
-      <div class="section-shell">
-        <div class="section-topline"><div><p class="eyebrow">03 / Scholarly work</p><h2>Manuscripts in<br><em>preparation.</em></h2></div><p class="section-intro">These works are listed as manuscripts in preparation, consistent with the descriptions in the previous portfolio. They are not presented as published or accepted papers.</p></div>
-        <div class="publication-list">
-          <article class="publication">
-            <div class="publication-number">01</div>
-            <div class="publication-body">
-              <div class="publication-status">MANUSCRIPT IN PREPARATION</div>
-              <h3>Computational Investigation of the Pressure-Modulated Physical Properties of ABX₃ (X = Cl, Br, and I) Perovskites for Optoelectronic and Thermoelectric Applications</h3>
-              <p class="authors"><strong>Md. Abdullah Al-Rifat</strong>, Md. Rafiqul Islam, Md. Mehedi Hasan, Md. Rasidul Islam, Md. Masud Rana</p>
-              <p class="journal-line">Target journal listed in previous portfolio: <em>Chemical Physics</em></p>
-              <div class="tag-row"><span>DFT</span><span>Quantum ESPRESSO</span><span>Python</span></div>
-            </div>
-          </article>
-          <article class="publication">
-            <div class="publication-number">02</div>
-            <div class="publication-body">
-              <div class="publication-status">MANUSCRIPT IN PREPARATION</div>
-              <h3>A DFT Investigation of Structural Stability, Physical Behavior, and H₂ Storage Performance of M₂XH₆ (M = X, X) Hydrides</h3>
-              <p class="authors">Apurbo Roy, Sudip Dey Dipta, <strong>Abdullah Al Rifat</strong>, Md. Mahbubur Rahman</p>
-              <p class="journal-line">Target journal listed in previous portfolio: <em>International Journal of Hydrogen Energy</em></p>
-              <div class="tag-row"><span>DFT</span><span>Quantum ESPRESSO</span><span>Materials Studio</span></div>
-            </div>
-          </article>
-        </div>
-        <p class="fine-print">Before submitting applications, verify the exact manuscript titles, author order, journal targets and current submission status with all co-authors.</p>
-      </div>
-    </section>
+      <!-- PROJECT 2: POSTGRADUATE THESIS -->
+      <article class="project-card">
+        <div class="project-index">02</div><div class="project-content">
+          <div class="project-meta"><span class="tag tag-thesis">Postgraduate thesis</span><span class="project-status">[Ongoing]</span></div>
+          <h3>Multiscale Computational Investigation of Two-Dimensional Heterostructures for Li and Na Ion Battery Applications: From First-Principles Calculations to Electrochemical Modeling</h3>
+          <p class="project-summary">This research investigates 2D heterostructures as potential anode materials for Li and Na-ion batteries. Using first-principles calculations, I have studied the structural stability, ion adsorption and diffusion/migration, electronic properties, and electrochemical performance of VS<sub>2</sub>|SnS<sub>2</sub> heterostructures. By combining atomistic simulations with electrochemical modeling, this work connects atomic-scale behavior with practical battery performance. The goal is to understand how interfacial engineering can improve ion storage and transport in next-generation batteries.</p>
+          <div class="project-details"><div><b>Research question</b><p>How can interfacial engineering in two-dimensional heterostructures be used to enhance ion storage, diffusion, and electrochemical performance in next-generation Li and Na-ion batteries?</p></div><div><b>Methods & tools</b><p>Density Functional Theory (DFT) using Quantum ESPRESSO, Python-based heterostructure construction and analysis with ASE and ZSLGenerator, and PyBaMM for electrochemical modeling.</p></div><div><b>Current progress</b><p>Completed heterostructure construction, Li-ion adsorption and diffusion analysis, and electrochemical evaluation. Currently preparing manuscripts for journal publication and conference presentation.</p></div></div>
+          <div class="project-links"><a class="text-link" href="https://drive.google.com/file/d/1IArn7aM7SwipmSK3l99hDMVC4H-hoWP5/view?usp=drive_link" target="_blank" rel="noreferrer">Thesis overview / document ↗</a><a class="text-link" href="[DATA_OR_CODE_URL]" target="_blank" rel="noreferrer">Data / code ↗</a></div>
+        </div><div class="project-visual"><img src="assets/project-pg-thesis.jpg" alt="[Describe thesis figure]" onerror="this.style.display='none'"><span></span></div>
+      </article>
 
-    <section class="section section-tint" id="education">
-      <div class="section-shell two-column">
-        <div class="section-heading"><p class="eyebrow">04 / Education</p><h2>Academic<br><em>foundation.</em></h2><p class="section-intro">Materials Science and Engineering · Khulna University of Engineering &amp; Technology</p></div>
-        <div class="timeline">
-          <article class="timeline-item current">
-            <div class="timeline-date">JAN 2026 — PRESENT</div>
-            <h3>M.Eng. in Materials Science and Engineering</h3>
-            <p class="timeline-place">Khulna University of Engineering &amp; Technology (KUET)</p>
-            <p>Graduate study in materials science and engineering. Current coursework listed in the portfolio includes advanced nanomaterials, advanced biomaterials, thin-film fabrication and photovoltaic materials.</p>
-          </article>
-          <article class="timeline-item">
-            <div class="timeline-date">FEB 2020 — DEC 2025</div>
-            <h3>B.Eng. in Materials Science and Engineering</h3>
-            <p class="timeline-place">Khulna University of Engineering &amp; Technology (KUET)</p>
-            <p>CGPA: 3.58 / 4.00 · Ranked 9th among 69 students.</p>
-          </article>
-          <article class="timeline-item">
-            <div class="timeline-date">NOV 2024 — FEB 2025</div>
-            <h3>Machine Learning with Python</h3>
-            <p class="timeline-place">EDGE Project · ICT Division, Government of Bangladesh</p>
-            <p>Completed an 80-hour training programme covering supervised and unsupervised learning, neural networks and Python-based data science tools.</p>
-          </article>
-        </div>
-      </div>
-    </section>
+      <!-- PROJECT 3: BANDGAP PREDICTION PROJECT A -->
+      <article class="project-card">
+        <div class="project-index">03</div><div class="project-content">
+          <div class="project-meta"><span class="tag tag-project">Machine learning project</span><span class="project-status">[Completed]</span></div>
+          <h3>Metallicity & Bandgap prediction</h3>
+          <p class="project-summary">This project explores machine learning for band-gap prediction in ABX<sub>3</sub> perovskites using 1,005 materials collected from the Materials Project. Two complementary approaches were developed: chemical-descriptor-based regression for 180 semiconductors and a two-stage framework combining metallicity classification with band-gap regression using multiple material properties. The initial regression achieved an MAE of 0.574 eV, which improved to 0.430 eV (approximately 25% lower error) through feature optimization in the second workflow. The classification model achieved a balanced accuracy of 90.1%. These results demonstrate the potential of machine learning for faster perovskite screening and prioritization, helping reduce dependence on computationally expensive first-principles calculations.</p>
+          <div class="project-details"><div><b>Dataset</b><p>Source: Materials Project API. Dataset: 1,005 materials with 159 total features. Target variables: metallicity classification and bandgap regression.</p></div><div><b>Models & evaluation</b><p>Models: classification & regression based. Validation: 5-fold CV. Metrics: Classification- balanced accuracy, ROC-AUC, PR-AUC; Regression- MAE, RMSE, R<sup>2</sup></p></div><div><b>Key contribution</b><p>Compared feature sets and optimized ML models through feature selection to improve bandgap prediction and enable efficient perovskite screening.</p></div></div>
+          <div class="project-links"><a class="text-link" href="https://docs.google.com/document/d/1UWcRlZLzhpF9WWfY8tyRRt3i5qRf34ld/edit?usp=sharing&ouid=104671867659707578180&rtpof=true&sd=true" target="_blank" rel="noreferrer">Project report ↗</a><a class="text-link" href="https://drive.google.com/drive/folders/1a0KmP2OsyEiNfBOTwT43tN9QppqcyUjH?usp=drive_link" target="_blank" rel="noreferrer">Code / notebook ↗</a></div>
+        </div><div class="project-visual"><img src="assets/project-bandgap-1.jpg" alt="[Bandgap prediction plot]" onerror="this.style.display='none'"><span></span></div>
+      </article>
 
-    <section class="section section-paper" id="experience">
-      <div class="section-shell">
-        <div class="section-topline"><div><p class="eyebrow">05 / Experience</p><h2>Teaching, teams<br><em>and collaboration.</em></h2></div><p class="section-intro">Experience across university teaching support, student engineering teams, entrepreneurship initiatives and education outreach.</p></div>
-        <div class="experience-list">
-          <article class="experience-item">
-            <div class="experience-date">JAN 2026 — PRESENT</div>
-            <div><h3>Teaching Assistant</h3><p class="experience-org">Department of Materials Science &amp; Engineering · KUET</p><ul><li>Assist faculty members with laboratory sessions and academic activities for undergraduate students.</li><li>Support students with coursework, assignments and experimental techniques related to materials characterisation and engineering fundamentals.</li></ul></div>
-          </article>
-          <article class="experience-item">
-            <div class="experience-date">JUL 2021 — JAN 2023</div>
-            <div><h3>Researcher, Science Team</h3><p class="experience-org">TEAM DURBAR · Mars Rover</p><ul><li>Collaborated on the design and development of competitive rovers for international contests.</li><li>Participated in URC 2021, URC 2022 and IRDC 2022.</li></ul></div>
-          </article>
-          <article class="experience-item">
-            <div class="experience-date">JAN 2021 — SEP 2022</div>
-            <div><h3>Team Management &amp; Content Writer</h3><p class="experience-org">Startup Khulna</p><ul><li>Organised events and programmes supporting local entrepreneurship in Khulna.</li><li>Wrote articles on startups and helped build connections among entrepreneurs.</li></ul></div>
-          </article>
-          <article class="experience-item">
-            <div class="experience-date">MAR 2021 — DEC 2021</div>
-            <div><h3>District Coordinator, Bogura</h3><p class="experience-org">Prottoy · Online education</p><ul><li>Coordinated activities for an online education platform using 2D and 3D visual effects.</li><li>Helped organise online events engaging more than 500 students across colleges.</li></ul></div>
-          </article>
-        </div>
-        <div class="additional-experience"><p class="eyebrow">INDUSTRIAL ATTACHMENTS · 2024</p><p><strong>BSRM Ltd.</strong> — Production and Quality Control, Faujdarhat · <strong>Tusar Ceramics &amp; B&amp;T Cables</strong> — Ceramics and cable manufacturing, Jhenaidah · <strong>GPH Ispat Ltd.</strong> — Quantum EAF steel production, Sitakunda.</p></div>
-      </div>
-    </section>
+      <!-- PROJECT 4: BANDGAP PREDICTION PROJECT B
+      <article class="project-card">
+        <div class="project-index">04</div><div class="project-content">
+          <div class="project-meta"><span class="tag tag-project">Machine learning project</span><span class="project-status">[Completed / Ongoing]</span></div>
+          <h3>[Bandgap prediction project — II]</h3>
+          <p class="project-summary">[Explain how this project differs from Project 03: dataset, descriptors, model strategy, or scientific scope.]</p>
+          <div class="project-details"><div><b>Research objective</b><p>[Prediction / screening / model interpretation objective]</p></div><div><b>Methods</b><p>[Algorithms, descriptors, software]</p></div><div><b>Outcome</b><p>[Verified findings, performance, or current status]</p></div></div>
+          <div class="project-links"><a class="text-link" href="[GOOGLE_DRIVE_URL]" target="_blank" rel="noreferrer">Project report ↗</a><a class="text-link" href="[GITHUB_REPOSITORY_URL]" target="_blank" rel="noreferrer">Code / notebook ↗</a></div>
+        </div><div class="project-visual"><img src="assets/project-bandgap-2.jpg" alt="[Bandgap prediction figure]" onerror="this.style.display='none'"><span>[Add a second project figure]</span></div>
+      </article> -->
 
-    <section class="section section-dark" id="skills">
-      <div class="section-shell">
-        <div class="section-topline"><div><p class="eyebrow">06 / Methods &amp; tools</p><h2>Technical<br><em>toolkit.</em></h2></div><p class="section-intro">A concise inventory of methods and software identified in my academic and project experience. Proficiency is not represented by arbitrary percentage scores.</p></div>
-        <div class="toolkit-grid">
-          <div><span class="toolkit-label">COMPUTATIONAL MATERIALS</span><p>Density Functional Theory · Quantum ESPRESSO · Materials Studio · SCAPS-1D</p></div>
-          <div><span class="toolkit-label">PROGRAMMING &amp; DATA</span><p>Python · NumPy · Pandas · SciPy · Matplotlib · Seaborn</p></div>
-          <div><span class="toolkit-label">MACHINE LEARNING</span><p>Scikit-learn · TensorFlow · PyTorch · Artificial Neural Networks</p></div>
-          <div><span class="toolkit-label">ENERGY SYSTEMS</span><p>pyBaMM · Battery electrochemical modelling · Energy materials</p></div>
-          <div><span class="toolkit-label">LABORATORY &amp; ENGINEERING</span><p>Composite fabrication · Microscopy · Materials characterisation</p></div>
-          <div><span class="toolkit-label">OTHER TOOLS</span><p>Git &amp; GitHub · AutoCAD · MS Office · Adobe Photoshop</p></div>
-        </div>
-        <div class="language-row"><span class="toolkit-label">LANGUAGES</span><p>Bangla — Native <span>·</span> English — Bilingual (as listed in previous portfolio; update to a verified proficiency level if applying internationally)</p></div>
-      </div>
-    </section>
+      <!-- PROJECT 5: HYDROXYAPATITE -->
+      <article class="project-card">
+        <div class="project-index">05</div><div class="project-content">
+          <div class="project-meta"><span class="tag tag-project">Experimental project</span><span class="project-status">[Completed]</span></div>
+          <h3>Preparation and Characterization of Hydroxyapatite</h3>
+          <p class="project-summary">Investigated the synthesis of hydroxyapatite (HAp), a calcium-phosphate ceramic with potential applications in biomaterials, using waste eggshells as a sustainable calcium precursor. The project involved converting eggshell-derived calcium oxide into calcium hydroxide, followed by wet-chemical precipitation using diammonium hydrogen phosphate (DAP). The synthesized powder was subsequently subjected to heat treatment and structural characterization to evaluate its crystallographic properties and confirm HAp formation.</p>
+          <div class="project-details"><div><b>Objective</b><p>To investigate its structural and crystallographic properties through X-ray diffraction analysis, with particular emphasis on phase identification, lattice parameters, crystallite size, and crystallinity.</p></div><div><b>Methods</b><p>Synthesized hydroxyapatite from waste eggshells through calcination, slaking, and wet-chemical precipitation, followed by heat treatment and XRD-based structural characterization.</p></div><div><b>My contribution</b><p>Performed experimental synthesis and powder processing, analyzed XRD data, and evaluated crystallographic parameters, including lattice constants, crystallite size, and crystallinity.</p></div></div>
+          <div class="project-links"><a class="text-link" href="https://docs.google.com/document/d/1POW2FXUHQ1iind_BZjn6KZBuoGyKgsjp/edit?usp=drive_link&ouid=104671867659707578180&rtpof=true&sd=true" target="_blank" rel="noreferrer">Project report ↗</a><!--<a class="text-link" href="[FIGURE_OR_DATA_URL]" target="_blank" rel="noreferrer">Figures / data ↗</a>--></div>
+        </div><div class="project-visual"><img src="assets/project-hydroxyapatite.jpg" alt="[Hydroxyapatite project image]" onerror="this.style.display='none'"><span></span></div>
+      </article>
+    </div>
+    <p class="project-footnote">* Most of the works presented in this section are independently conducted. Some collaborative projects have been omitted due to technical constraints and limitations in documenting their contributions.</p>
+  </div>
+</section>
 
-    <section class="contact-section section-paper" id="contact">
-      <div class="section-shell contact-layout">
-        <div><p class="eyebrow">07 / Contact</p><h2>Open to thoughtful<br><em>research conversations.</em></h2></div>
-        <div class="contact-copy"><p>I welcome conversations about PhD opportunities, research collaboration and academic positions in computational materials science, energy materials and data-driven modelling.</p><a class="button button-primary" href="mailto:abdullahalrifat1345@gmail.com?subject=Research%20or%20PhD%20Opportunity">Get in touch <span aria-hidden="true">↗</span></a><div class="contact-links"><a href="mailto:abdullahalrifat1345@gmail.com">abdullahalrifat1345@gmail.com</a><a href="https://www.linkedin.com/in/aalrifat" target="_blank" rel="noopener noreferrer">LinkedIn profile ↗</a><a href="https://github.com/aalrifat" target="_blank" rel="noopener noreferrer">GitHub profile ↗</a></div></div>
-      </div>
-    </section>
-  </main>
-  <footer class="site-footer"><div class="section-shell footer-inner"><a class="wordmark" href="#top">AR<span>.</span></a><p>Md. Abdullah Al-Rifat · Materials Science &amp; Engineering</p><p>© <span id="year">2026</span></p></div></footer>
-  <script src="script.js" defer></script>
+<!-- 4. EDUCATION -->
+<section id="education" class="section education-section">
+  <div class="container narrow">
+    <p class="eyebrow">04 / EDUCATION</p><h2 class="section-title">Academic background & Training program</h2>
+    <div class="timeline">
+      <article class="timeline-item"><span class="timeline-date">Jan 2026 — Present</span><div><h3>MSc. Engg. in Materials Science & Engineering</h3><p class="institution">Khulna University of Engineering & Technology (KUET)</p><p>Current CGPA: 4.00/4.00<br>Ongoing Courses: Advanced Materials Characterization Techniques; Numerical Modelling of Photonic Materials and Devices<br>Supervisor: Dr. Md. Rafiqul Islam, Professor, Department of Electrical and Electronic Engineering, KUET</p>
+      <div class="project-links"><a class="text-link" href="https://drive.google.com/file/d/11k5ndlthLaySoO06gdXyMtCYIFZhZtJ8/view?usp=drive_link" target="_blank" rel="noreferrer">Document(s) ↗</a></div></div></article>
+      <article class="timeline-item"><span class="timeline-date">Feb 2020 — Dec 2025</span><div><h3>BSc. Engg. in Materials Science & Engineering</h3><p class="institution">Khulna University of Engineering & Technology (KUET)</p><p>CGPA: 3.58/4.00 · Ranked 9th among 69 students<br>Dean's List Award: Session 2022–23 · Faculty of Electrical and Electronic Engineering<br>Supervisor: Dr. Md. Rafiqul Islam, Professor, Department of Electrical and Electronic Engineering, KUET</p>
+      <div class="project-links"><a class="text-link" href="https://drive.google.com/drive/folders/1Jy0n9QZoEgUP8m3Mdr8i8cIE9V6pYSbI?usp=sharing" target="_blank" rel="noreferrer">Document(s) ↗</a></div></div></article>
+      <article class="timeline-item"><span class="timeline-date">Nov 2024 — Feb 2025</span><div><h3>Machine Learning with Python</h3><p class="institution">Bangladesh Computer Council, ICT Division - Govt. of Bangladesh</p><p>Completed an 80-hour comprehensive training program under the EDGE Project of the ICT Division, Government of Bangladesh, earning a certificate upon successful completion.</p>
+      <div class="project-links"><a class="text-link" href="https://drive.google.com/file/d/1iN5sR43EtnrvQNc1zjXuo3zvCBKmBYR-/view?usp=drive_link" target="_blank" rel="noreferrer">Document(s) ↗</a></div></div></article>
+    </div>
+  </div>
+</section>
+
+<!-- 5. RESEARCH & PROFESSIONAL EXPERIENCE -->
+<section id="experience" class="section experience-section">
+  <div class="container narrow">
+    <p class="eyebrow">05 / EXPERIENCE</p><h2 class="section-title">Professional experience & Beyond</h2>
+    <article class="experience-item"><div class="experience-date">Jan 2026 — Present</div><div><h3>Teaching Assistant</h3><p class="institution">Department of Materials Science and Engineering · KUET</p><ul><li>Sessional courses assisted: Computational Materials Science (Materials Studio & LAMMPS); Programming Techniques (in C); Polymer and Composite Materials; Engineering Alloys and Materials Selection (Ansys Granta).</li><li>Supported students in debugging code, clarifying theoretical and computational concepts, and troubleshooting technical problems.</li><li>Evaluated laboratory reports and provided feedback to improve students' technical understanding and reporting skills.</li></ul>
+    <div class="project-links"><a class="text-link" href="https://drive.google.com/drive/folders/1-YDAxGvQcoJZvGd3ytwE7JQIXXACQcgG?usp=sharing" target="_blank" rel="noreferrer">Document(s) ↗</a></div></div></article>
+    <article class="experience-item"><div class="experience-date">Sep 2025</div><div><h3>Instructor · Quantum ESPRESSO Workshop</h3><p class="institution">Metamaterials Club of KUET</p><ul><li>Served as an instructor in the Quantum ESPRESSO Workshop held on 16, 18, 19, and 20 September 2025.</li><li>Delivered hands-on training and provided technical guidance on computational materials simulation using Quantum ESPRESSO.</li><li>Contributed to participants' understanding of computational approaches and practical simulation workflows.</li></ul>
+    <div class="project-links"><a class="text-link" href="https://drive.google.com/file/d/1G4DvPxxssB5nwobRYAqQoVGNxGzYYxih/view?usp=drive_link" target="_blank" rel="noreferrer">Document(s) ↗</a></div></div></article>
+    <article class="experience-item"><div class="experience-date">2024</div><div><h3>Industrial Attachments</h3><p class="institution">BSRM · Tusar Ceramics & B&T Cables · GPH Ispat</p><p><ul><li>BSRM Ltd. (25-31 Mar, 2024): Gained exposure to steel production and quality control, including furnace operations, rolling parameters, and physical, mechanical, and chemical testing.</li><li>Tusar Ceramics & B&T Cables Ltd. (30 Nov, 2024): Observed ceramic manufacturing processes and cable production operations.</li><li>GPH Ispat Ltd. (16 Dec, 2024): Explored Quantum EAF-based steelmaking and modern electric arc furnace production processes.</li></ul></p></div></article>
+    <!--<article class="experience-item"><div class="experience-date">[Dates]</div><div><h3>[Other professional / leadership experience]</h3><p class="institution">[Organization]</p><p>[Briefly explain responsibilities and transferable skills.]</p></div></article>-->
+  </div>
+</section>
+
+<!-- 6. TECHNICAL SKILLS -->
+<section id="skills" class="section skills-section">
+  <div class="container narrow">
+    <p class="eyebrow">06 / TECHNICAL TOOLKIT</p><h2 class="section-title">Methods & tools</h2>
+    <p class="section-subtitle">An overview of my research capabilities, interdisciplinary expertise, computational approaches, and technical competencies developed through academic and research experience.</p>
+    <div class="skill-groups">
+      <article><h3>Softwares & Packages</h3><p>Quantum ESPRESSO (QE) · QE post-processing packages- Critic2, BoltzTraP2, Bader, Gibbs2  · Materials Studio · LAMMPS · SCAPS-1D · AutoCad · Origin · Linux OS</p></article>
+      <article><h3>Programming & data</h3><p>C · Python and its necessary modules · API Fetching · Data/Web Scraping · Machine Learning (ML) & models · Artificial Neural Network (ANN) in DL · Data Science</p></article>
+      <article><h3>Research workflow</h3><p>Computational Materials Science · 2D Heterostructures · Energy Storage · ML & DL for Materials · First-Principles Modeling · Biomaterials · Nanomaterials</p></article>
+      <article><h3>Soft Skills</h3><p>Analytical & Critical Thinking · Independent Research & Problem-Solving · Interdisciplinary Thinking · Adaptability & Continuous Learning · Scientific Communication</p></article>
+    </div>
+  </div>
+</section>
+
+<!-- 7. CONTACT -->
+<section id="contact" class="section contact-section">
+  <div class="container contact-grid">
+    <div><p class="eyebrow">07 / CONTACT</p><h2 class="section-title">Let's discuss<br><span>research.</span></h2><p class="contact-copy">I welcome conversations about research collaboration, doctoral opportunities, and computational materials science.</p></div>
+    <div class="contact-card"><p class="contact-label">EMAIL</p><a class="contact-email" href="mailto:abdullahalrifat1345@gmail.com">abdullahalrifat1345@gmail.com ↗</a><div class="contact-social"><a href="https://wa.me/8801763261046" target="_blank" rel="noreferrer">WhatsApp ↗</a><a href="https://www.linkedin.com/in/aalrifat" target="_blank" rel="noreferrer">LinkedIn ↗</a><a href="https://github.com/aalrifat" target="_blank" rel="noreferrer">GitHub ↗</a></div><p class="contact-location">Khulna, Bangladesh</p></div>
+  </div>
+</section>
+
+
+
+<!-- FINAL OUTRO / RESEARCH REFLECTION -->
+<section class="outro-section" id="outro">
+  <div class="container outro-container">
+
+    <p class="eyebrow outro-eyebrow">
+      BEYOND THE PROBLEM · TOWARD THE SOLUTION
+    </p>
+
+    <div class="outro-divider"></div>
+
+    <div class="outro-quote">
+
+      <p class="quote-part">
+        To understand the depth of a problem,
+        seek the wisdom of one who has failed a hundred times.
+      </p>
+
+      <div class="quote-separator"></div>
+
+      <p class="quote-part">
+        To discover its solution,
+        seek the insight of one who conquered it on the first attempt.
+      </p>
+
+    </div>
+
+    <p class="outro-caption">
+      A reflection on my understanding, perseverance, and discovery.
+    </p>
+  </div>
+</section>
+
+</section>
+
+</main>
+<footer class="site-footer"><div class="container footer-inner"><span>© <span id="year"></span> Md. Abdullah Al-Rifat</span><a href="#home">Back to top ↑</a></div></footer>
+<script src="script.js"></script>
 </body>
 </html>
